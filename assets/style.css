@@ -1,26 +1,48 @@
 /* Bootstrap CSS Overrides */
 
 body {
-    background-image: url(/assets/images/concrete_seamless.png);
+    background-image: url(../assets/images/concrete_seamless.png);
 }
 
-.navbar {
-    background-color: #fff;
+nav {
+    background-color: #ddd !important;
 }
 
-.navbar-brand h1 {
+/* .navbar-brand h2 {
     color: #fff;
     background-color: #4aaaa5;
+} */
+
+.navbar-brand {
+    color: #fff !important;
+    background: #4aaaa5 !important;
+    padding:10px 20px;
+    margin: 0;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+h2 {
+    color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
+}
+
+h3 {
+    color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4aaaa5;
+}
+
+.container {
+    background: #fff;
+}
+
+.footer-text {
     text-align: center;
+    color: #ddd;
+    font-size: .5em;
+    line-height: 20px;
+    padding-top: 5px;
+    background: #666;
 }
-
